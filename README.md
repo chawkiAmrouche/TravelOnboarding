@@ -13,7 +13,7 @@ As I seek to make beautiful designs come alive into Code format "Travel Onboardi
 
 this code is inspired from the works of [Ram Nethaji](https://www.uplabs.com/ramnethaji)
 
-![Alt text](https://github.com/chawkiAmrouche/TravelOnboarding/blob/master/Untitled-3.jpg)
+![Alt text](https://github.com/chawkiAmrouche/TravelOnboarding/blob/master/Untitled-3.png)
 
 
 ## Libraries
