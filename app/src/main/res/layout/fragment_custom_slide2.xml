@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agency.tango.materialintroscreen.parallax.ParallaxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#449DF5"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:text="Easy Booking"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/booking" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Lorem Ipsum is simply dummy text  of the printing and typesetti"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+
+            android:src="@drawable/plane1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginLeft="-5dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:src="@drawable/bag" />
+
+    </RelativeLayout>
+
+</agency.tango.materialintroscreen.parallax.ParallaxLinearLayout>
